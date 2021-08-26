@@ -9,8 +9,8 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "August 26-28, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 2:00 pm Mountain Standard Time "    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humandate: "Postponed"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "Mountain Standard Time "    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-08-26      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-08-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Adam Hughes", "Menglan Xiang", "Janani Hariharan"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -60,6 +60,8 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 </div>
 {% endunless %}
 {% endif %}
+
+<div class="alert alert-warning" style="font-size:1.75em; padding: 1em;"><strong>Update on 25 August:</strong> This event is postponed until furter notice. An update will be sent out to registered attendees when the workshop can go ahead again. Register with Joslynn Lee at <a href="https://docs.google.com/forms/d/1hIKrnDDXOvXLRtLcDneSa8eujHCEBSHR7Kd6Ax4oAOI/viewform?ts=61198006&edit_requested=true#responses">Registration</a>  </div>
 
 {% comment %}
 EVENTBRITE
